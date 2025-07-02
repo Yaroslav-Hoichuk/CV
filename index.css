@@ -1,0 +1,52 @@
+body{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: rgb(39, 39, 35);
+    color: aliceblue;
+}
+span{
+    border-bottom: 1px solid lime;
+}
+
+img{
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.left-side-info{
+    margin: 2vh 0 0 5vw;
+}
+.rigth-side-info {
+    margin: 2vh 5vw 0 0 ;
+}
+
+.about_myself{
+    display: flex;
+    justify-content: start;
+}
+.about_myself div{
+    margin-right: 5vw;
+}
+
+.project-exp-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.project {
+    display: inline-block;
+    max-width:20vw;
+    
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.tech-stack{
+    color: rgb(113, 223, 113);
+    min-height: 5vh;
+}
